@@ -32,7 +32,7 @@ class SpMpDeps(extra: Map<String, Any>) {
                 license_url = "https://github.com/toasterofbread/spmp-server/blob/6dde651ffc102d604ac7ecd5ac7471b1572fd2e6/LICENSE"
             ),
             "dev.toastbits.composekit" to DependencyInfo(
-                version = "851191ccc0",
+                version = "1ad09f6101",
                 name = "ComposeKit",
                 author = "toasterofbread",
                 url = "https://github.com/toasterofbread/composekit",
@@ -103,6 +103,14 @@ class SpMpDeps(extra: Map<String, Any>) {
                 url = "https://github.com/atilika/kuromoji",
                 license = "Apache-2.0",
                 license_url = "https://github.com/atilika/kuromoji/blob/e18ff911fdea0a93c92ec600dc6e123df363fa52/LICENSE.md"
+            ),
+            "com.andree-surya:moji4j" to DependencyInfo(
+                version = "1.2.0",
+                name = "Moji4J",
+                author = "Andree Surya",
+                url = "https://github.com/andree-surya/moji4jh",
+                license = "Apache-2.0",
+                license_url = "https://github.com/andree-surya/moji4j/blob/ea0168f125da8791e951eab7cdf18b06a7db705b/README.md"
             ),
             "org.jsoup:jsoup" to DependencyInfo(
                 version = "1.16.1",
